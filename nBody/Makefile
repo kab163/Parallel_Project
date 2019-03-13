@@ -8,7 +8,7 @@ single: $(SRC2)
 	nvcc $(SRC2) -o single
 
 part: $(SRC)
-	nvcc -O3 -arch=sm_35 $(SRC) -o multi
+	nvcc -O3 -arch=sm_35 $(SRC) -o part
 
 
 clean:

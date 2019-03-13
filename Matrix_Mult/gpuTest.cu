@@ -73,18 +73,17 @@ int main(int argc, char* argv[])
   cudaDeviceSynchronize();
   gettimeofday(&end, NULL);
   double runtime = end.tv_sec + (end.tv_usec / 1000000.0) - start.tv_sec - (start.tv_usec / 1000000.0);
-  printf("\nCompute time for Matrix Multiply: %.4f s\n", runtime);
+  printf("\nCompute time for Matrix Multiply: %.8f s\n", runtime);
 
   //send data back to CPU
   cudaMemcpy(arrayC, d_C, N * N * sizeof(double), cudaMemcpyDeviceToHost); CudaTest("failed to send data back");
 
-/*   
+   
   //check result
-  for (int i = 0; i < N; i++) 
+/*  for (int i = 0; i < N; i++) 
     for(int j = 0; j < N; j++) 
     { 
-      printf("Array C: %.2lf \n", arrayC[i * N + j]);
-      printf("Array B: %.2lf \n", arrayB[i * N + j]);
+      printf("Array C: %.2lf \n", arrayC[i * N + j]);  
     }
 */
 

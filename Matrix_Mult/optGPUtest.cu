@@ -41,8 +41,7 @@ int main(int argc, char* argv[])
 
   cudaDeviceProp prop;
   cudaGetDeviceProperties(&prop, 0);
-  printf("Running on %s\n", prop.name);
-  printf("GPU has Prop major of %d and Prop minor of %d\n", prop.major, prop.minor);
+  printf("Running on %s\n", prop.name); 
 
   //timing
   struct timeval start, end; 
@@ -53,15 +52,19 @@ int main(int argc, char* argv[])
 
   //allocate on CPU
   float *arrayA, *arrayB, *arrayC;
-  cudaHostAlloc(&arrayA, N * N * sizeof(float), cudaHostAllocDefault);
-  cudaHostAlloc(&arrayB, N * N * sizeof(float), cudaHostAllocDefault);
-  cudaHostAlloc(&arrayC, N * N * sizeof(float), cudaHostAllocDefault);
+  cudaHostAlloc(&arrayA, N * N * sizeof(float), cudaHostAllocDefault); CudaTest("failed allocation");
+  cudaHostAlloc(&arrayB, N * N * sizeof(float), cudaHostAllocDefault); CudaTest("failed allocation");
+  cudaHostAlloc(&arrayC, N * N * sizeof(float), cudaHostAllocDefault); CudaTest("failed allocation");
+
+  //create cuda streams
+  cudaStream_t streams[factor];
+  for(int i = 0; i < factor; i++) {cudaStreamCreate(&streams[i]);}
 
   //fill array inputs on CPU
   for (int i = 0; i < N; i++)
     for (int j = 0; j < N; j++) {     
-      arrayA[i * N + j] = (i * N + j) + rand() % 100000 / 100000.0;
-      arrayB[i * N + j] = 2 * rand() % 100000 / 100000.0;
+      arrayA[i * N + j] = 1.0 * (i * N + j);
+      arrayB[i * N + j] = 2.0 * i;
     } 
 
   //allocate space on GPU
@@ -73,32 +76,39 @@ int main(int argc, char* argv[])
 
   for(int i = 0; i < factor; i++) {
     //send part data to GPU for MM
-    cudaMemcpy(d_A, &arrayA[(i * part) * N], part * N * sizeof(float), cudaMemcpyHostToDevice); CudaTest("failed to send data to GPU");
+    cudaMemcpyAsync(d_A, &arrayA[(i * part) * N], part * N * sizeof(float), cudaMemcpyHostToDevice, streams[i]); 
+                                                                  //CudaTest("failed to send data to GPU");
  
     //run first kernel
     gettimeofday(&start, NULL);   
-    matrixMult<<<((part * N + THREADS -1)/THREADS), THREADS>>> (N, part, d_A, d_B, d_C); CudaTest("failed kernel"); 
+    matrixMult<<<((part * N + THREADS -1)/THREADS), THREADS, 0, streams[i]>>> (N, part, d_A, d_B, d_C); //CudaTest("failed kernel"); 
     gettimeofday(&end, NULL);
     runtime = end.tv_sec + (end.tv_usec / 1000000.0) - start.tv_sec - (start.tv_usec / 1000000.0);
     total += runtime;
    
     //send part data back to CPU for MM
-    cudaMemcpyAsync(&arrayC[(i * part) * N], d_C, part * N * sizeof(float), cudaMemcpyDeviceToHost); CudaTest("failed to send data back");
+    cudaMemcpyAsync(&arrayC[(i * part) * N], d_C, part * N * sizeof(float), cudaMemcpyDeviceToHost, streams[i]); 
+                                                                   //      CudaTest("failed to send data back");
   }
-  printf("\nCompute time for Matrix Multiply: %.4f s\n", total);
- 
-/*
+  printf("\nCompute time for Matrix Multiply: %.8f s\n", total);
+
   //check result
-  for (int i = 0; i < N; i++) 
+/*  for (int i = 0; i < N; i++) 
     for(int j = 0; j < N; j++) 
     { 
-      printf("Array C: %.2lf \n", arrayC[i * N + j]);
-      printf("Array B: %.2lf \n", arrayB[i * N + j]);
+      printf("Array C: %.2lf \n", arrayC[i * N + j]);  
     }
 */
 
+  //free streams
+  for(int i = 0; i < factor; i ++) {
+    cudaStreamSynchronize(streams[i]);
+    cudaStreamDestroy(streams[i]);
+  }
+
   //free memory
   cudaFree(d_A); cudaFree(d_B); cudaFree(d_C);
-  cudaFree(arrayA); cudaFree(arrayB); cudaFree(arrayC);
+  cudaFreeHost(arrayA); cudaFreeHost(arrayB); cudaFreeHost(arrayC); 
+  
   return 0;
 }

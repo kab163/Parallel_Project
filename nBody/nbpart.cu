@@ -231,6 +231,9 @@ int main(int argc, char *argv[])
   dthf = 0.025f * 0.5f;
   epssq = 0.05f * 0.05f;
 
+  cudaStream_t streams[groups];
+  for(int i = 0; i < groups; i++) {cudaStreamCreate(&streams[i]);}
+
   if(nbodies % groups != 0) {fprintf(stderr, "Group number must evenly divide number of bodies\n"); exit(-1);}
   nbparts = nbodies / groups; //number of bodies in each group.
 
@@ -313,28 +316,29 @@ int main(int argc, char *argv[])
   gettimeofday(&starttime, NULL);
   
   for(int i = 0; i < groups; i++) {  
-    for (step = 0; step < timesteps; step++) {
-    //for(int i = 0; i < groups; i++) {
-      ForceCalculationKernel<<<blocks, THREADS>>>(nbparts, (i * nbparts), step);
-      IntegrationKernel<<<blocks, THREADS>>>(nbparts, (i * nbparts));
+    for (step = 0; step < timesteps; step++) { 
+      ForceCalculationKernel<<<blocks, THREADS, 0, streams[i]>>>(nbparts, (i * nbparts), step);
+      IntegrationKernel<<<blocks, THREADS, 0, streams[i]>>>(nbparts, (i * nbparts));
    
-      if (cudaSuccess != cudaMemcpyAsync(&posx[i * nbparts], &posxl[i * nbparts], sizeof(float) * nbparts, cudaMemcpyDeviceToHost))
+      if (cudaSuccess != cudaMemcpyAsync(&posx[i * nbparts], &posxl[i * nbparts], sizeof(float) * nbparts, cudaMemcpyDeviceToHost, streams[i]))
          {fprintf(stderr, "copying of posx from device failed\n");} //CudaTest("posx copy from device failed");}
-      if (cudaSuccess != cudaMemcpyAsync(&posy[i * nbparts], &posyl[i * nbparts], sizeof(float) * nbparts, cudaMemcpyDeviceToHost))
+      if (cudaSuccess != cudaMemcpyAsync(&posy[i * nbparts], &posyl[i * nbparts], sizeof(float) * nbparts, cudaMemcpyDeviceToHost, streams[i]))
          {fprintf(stderr, "copying of posy from device failed\n");} //CudaTest("posy copy from device failed");}
-      if (cudaSuccess != cudaMemcpyAsync(&posz[i * nbparts], &poszl[i * nbparts], sizeof(float) * nbparts, cudaMemcpyDeviceToHost))
+      if (cudaSuccess != cudaMemcpyAsync(&posz[i * nbparts], &poszl[i * nbparts], sizeof(float) * nbparts, cudaMemcpyDeviceToHost, streams[i]))
          {fprintf(stderr, "copying of posz from device failed\n");} //CudaTest("posz copy from device failed");}
 
       cudaDeviceSynchronize();
+      cudaStreamSynchronize(streams[i]);
 
-      if (cudaSuccess != cudaMemcpyAsync(posxl, posx, sizeof(float) * nbodies, cudaMemcpyHostToDevice))
+      if (cudaSuccess != cudaMemcpyAsync(posxl, posx, sizeof(float) * nbodies, cudaMemcpyHostToDevice, streams[i]))
         {fprintf(stderr, "copying of posx from device failed\n");} //CudaTest("posx copy from device failed");}
-      if (cudaSuccess != cudaMemcpyAsync(posyl, posy, sizeof(float) * nbodies, cudaMemcpyHostToDevice))
+      if (cudaSuccess != cudaMemcpyAsync(posyl, posy, sizeof(float) * nbodies, cudaMemcpyHostToDevice, streams[i]))
         {fprintf(stderr, "copying of posx from device failed\n");} //CudaTest("posy copy from device failed");}
-      if (cudaSuccess != cudaMemcpyAsync(poszl, posz, sizeof(float) * nbodies, cudaMemcpyHostToDevice))
+      if (cudaSuccess != cudaMemcpyAsync(poszl, posz, sizeof(float) * nbodies, cudaMemcpyHostToDevice, streams[i]))
         {fprintf(stderr, "copying of posx from device failed\n");} //CudaTest("posz copy from device failed");}
 
       cudaDeviceSynchronize();
+      cudaStreamSynchronize(streams[i]);
     }
   }
     
@@ -358,6 +362,11 @@ int main(int argc, char *argv[])
 */
  
   printf("\nruntime: %.8f s\n", runtime); 
+
+  for(int i = 0; i < groups; i++) {
+    cudaStreamSynchronize(streams[i]);
+    cudaStreamDestroy(streams[i]);
+  }
 
   for (int i = 0; i < 1; i++) printf("%.2e %.2e %.2e\n", posx[i], posy[i], posz[i]);
   cudaFreeHost(mass);  cudaFreeHost(posx);  cudaFreeHost(posy);  cudaFreeHost(posz);  cudaFreeHost(velx);  cudaFreeHost(vely);  cudaFreeHost(velz);
