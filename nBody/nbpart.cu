@@ -5,7 +5,7 @@
 #include <cuda.h>
 
 
-#define THREADS 512
+#define THREADS 128
 
 __constant__ int nbodiesd;
 __constant__ float dthfd, epssqd;
@@ -328,7 +328,7 @@ int main(int argc, char *argv[])
          {fprintf(stderr, "copying of posz from device failed\n");} //CudaTest("posz copy from device failed");}
 
       cudaDeviceSynchronize();
-      cudaStreamSynchronize(streams[i]);
+      //cudaStreamSynchronize(streams[i]);
 
       if (cudaSuccess != cudaMemcpyAsync(posxl, posx, sizeof(float) * nbodies, cudaMemcpyHostToDevice, streams[i]))
         {fprintf(stderr, "copying of posx from device failed\n");} //CudaTest("posx copy from device failed");}
@@ -338,7 +338,7 @@ int main(int argc, char *argv[])
         {fprintf(stderr, "copying of posx from device failed\n");} //CudaTest("posz copy from device failed");}
 
       cudaDeviceSynchronize();
-      cudaStreamSynchronize(streams[i]);
+      //cudaStreamSynchronize(streams[i]);
     }
   }
     
