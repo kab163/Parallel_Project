@@ -1,0 +1,92 @@
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.0389 s
+**********size 1000, 2 groups**********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00001997 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00002007 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00002096 s
+**********size 1000, 5 groups**********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00003178 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00002860 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00003113 s
+**********size 1000, 10 groups**********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00005256 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00005115 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00004989 s
+**********size 1000, 25 groups*********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00009607 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00010505 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00009465 s
+**********************************
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 44.5282 s
+**********size 10000, 2 groups*********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00002391 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00002299 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00002283 s
+**********size 10000, 5 groups*********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00003719 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00003566 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00003591 s
+**********size 10000, 10 groups********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00005371 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00005802 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00005723 s
+**********size 10000, 25 groups*********
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00010309 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00010474 s
+Running on Tesla K40c
+
+Compute time for Matrix Multiply: 0.00010896 s
+*************************************
+**********size 100000, 2 groups
+**********size 100000, 5 groups
+**********size 100000, 10 groups
+**********size 100000, 25 groups

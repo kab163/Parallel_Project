@@ -222,7 +222,10 @@ int main(int argc, char *argv[])
   register float *mass, *posx, *posy, *posz, *velx, *vely, *velz;
   register float *massl, *posxl, *posyl, *poszl, *velxl, *velyl, *velzl, *accxl, *accyl, *acczl;
 
-  printf("n-body GPU Kepler\n");
+  cudaDeviceProp prop;
+  cudaGetDeviceProperties(&prop, 0);
+  printf("Running on %s\n", prop.name);
+
   if (argc != 4) {fprintf(stderr, "\narguments: number_of_bodies number_of_timesteps num_groups\n"); exit(-1);}
 
   nbodies = atoi(argv[1]);
