@@ -1,0 +1,490 @@
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, device 0
+
+runtime: 0.58818996 s
+9.02e-02 3.40e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 2 groups 
+
+runtime: 0.53643906 s
+9.04e-02 3.39e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 2 groups 
+
+runtime: 0.53705406 s
+9.04e-02 3.39e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 2 groups 
+
+runtime: 0.53690100 s
+9.04e-02 3.39e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 5 groups 
+
+runtime: 0.67777091 s
+9.06e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 5 groups 
+
+runtime: 0.68087989 s
+9.06e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 5 groups 
+
+runtime: 0.67745411 s
+9.06e-02 3.38e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 10 groups**********
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 10 groups 
+
+runtime: 0.67847097 s
+9.06e-02 3.40e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 10 groups 
+
+runtime: 0.68053490 s
+9.06e-02 3.40e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 10 groups 
+
+runtime: 0.67964089 s
+9.06e-02 3.40e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 25 groups**********
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 25 groups 
+
+runtime: 1.74806499 s
+9.08e-02 3.39e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 25 groups 
+
+runtime: 1.74869108 s
+9.08e-02 3.39e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 100000 bodies, 10 time steps, 25 groups 
+
+runtime: 1.74873698 s
+9.08e-02 3.39e-02 -1.11e-01
+**********************************
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, device 0
+
+runtime: 2.31607199 s
+9.02e-02 3.41e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 2 groups 
+
+runtime: 1.88030183 s
+9.00e-02 3.41e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 2 groups 
+
+runtime: 1.88606405 s
+9.00e-02 3.41e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 2 groups 
+
+runtime: 1.88605297 s
+9.00e-02 3.41e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 5 groups 
+
+runtime: 2.03989005 s
+9.01e-02 3.40e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 5 groups 
+
+runtime: 2.04065895 s
+9.01e-02 3.40e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 5 groups 
+
+runtime: 2.04075313 s
+9.01e-02 3.40e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 10 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 10 groups 
+
+runtime: 2.74797297 s
+9.02e-02 3.40e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 10 groups 
+
+runtime: 2.74698997 s
+9.02e-02 3.40e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 10 groups 
+
+runtime: 2.74755001 s
+9.02e-02 3.40e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 25 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 25 groups 
+
+runtime: 3.52370620 s
+9.02e-02 3.41e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 25 groups 
+
+runtime: 3.52366781 s
+9.02e-02 3.41e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 10 time steps, 25 groups 
+
+runtime: 3.52408600 s
+9.02e-02 3.41e-02 -1.11e-01
+*************************************
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, device 0
+
+runtime: 14.17426395 s
+9.04e-02 3.36e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 2 groups 
+
+runtime: 11.44095707 s
+9.05e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 2 groups 
+
+runtime: 11.45014381 s
+9.05e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 2 groups 
+
+runtime: 11.45882320 s
+9.05e-02 3.37e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 5 groups 
+
+runtime: 11.85912323 s
+9.03e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 5 groups 
+
+runtime: 11.87237167 s
+9.03e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 5 groups 
+
+runtime: 11.88111305 s
+9.03e-02 3.37e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 10 groups**********
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 10 groups 
+
+runtime: 13.61680794 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 10 groups 
+
+runtime: 13.61127377 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 10 groups 
+
+runtime: 13.60830498 s
+9.04e-02 3.37e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 25 groups**********
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 25 groups 
+
+runtime: 17.14318275 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 25 groups 
+
+runtime: 17.16369820 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 500000 bodies, 10 time steps, 25 groups 
+
+runtime: 17.14801025 s
+9.04e-02 3.37e-02 -1.11e-01
+***********************************************
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, device 0
+
+runtime: 57.90665436 s
+9.05e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 2 groups 
+
+runtime: 46.34819412 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 2 groups 
+
+runtime: 44.89424133 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 2 groups 
+
+runtime: 44.91733551 s
+9.05e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 5 groups 
+
+runtime: 47.64414978 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 5 groups 
+
+runtime: 47.63650131 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 5 groups 
+
+runtime: 47.60818100 s
+9.05e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 10 groups**********
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 10 groups 
+
+runtime: 47.66434479 s
+9.04e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 10 groups 
+
+runtime: 47.69086075 s
+9.04e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 10 groups 
+
+runtime: 47.67988205 s
+9.04e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 25 groups**********
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 25 groups 
+
+runtime: 51.12096024 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 25 groups 
+
+runtime: 51.09767151 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on GeForce GTX 1070
+configuration: 1000000 bodies, 10 time steps, 25 groups 
+
+runtime: 51.10835266 s
+9.05e-02 3.38e-02 -1.11e-01
+***********************************************
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, device 0
+
+runtime: 4.68636608 s
+1.58e-01 6.04e-02 -1.94e-01
+**********200000 nbodies, 20 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 2 groups 
+
+runtime: 3.81697893 s
+1.57e-01 6.08e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 2 groups 
+
+runtime: 3.81899905 s
+1.57e-01 6.08e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 2 groups 
+
+runtime: 3.81697893 s
+1.57e-01 6.08e-02 -1.93e-01
+**********200000 nbodies, 20 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 5 groups 
+
+runtime: 4.10547209 s
+1.57e-01 6.04e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 5 groups 
+
+runtime: 4.10317326 s
+1.57e-01 6.04e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 5 groups 
+
+runtime: 4.10080576 s
+1.57e-01 6.04e-02 -1.93e-01
+**********200000 nbodies, 20 timesteps, 10 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 10 groups 
+
+runtime: 5.52138805 s
+1.57e-01 6.05e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 10 groups 
+
+runtime: 5.50060081 s
+1.57e-01 6.05e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 10 groups 
+
+runtime: 5.50476885 s
+1.57e-01 6.05e-02 -1.93e-01
+**********200000 nbodies, 20 timesteps, 25 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 25 groups 
+
+runtime: 7.05404520 s
+1.57e-01 6.07e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 25 groups 
+
+runtime: 7.05439901 s
+1.57e-01 6.07e-02 -1.93e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 20 time steps, 25 groups 
+
+runtime: 7.05374813 s
+1.57e-01 6.07e-02 -1.93e-01
+**********************************
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, device 0
+
+runtime: 11.67123795 s
+1.56e-01 6.44e-02 -1.96e-01
+**********200000 nbodies, 50 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 2 groups 
+
+runtime: 9.50370502 s
+1.46e-01 5.74e-02 -1.77e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 2 groups 
+
+runtime: 9.50913620 s
+1.46e-01 5.74e-02 -1.77e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 2 groups 
+
+runtime: 9.52842808 s
+1.46e-01 5.74e-02 -1.77e-01
+**********200000 nbodies, 50 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 5 groups 
+
+runtime: 10.25701618 s
+1.44e-01 5.47e-02 -1.74e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 5 groups 
+
+runtime: 10.25643635 s
+1.44e-01 5.47e-02 -1.74e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 5 groups 
+
+runtime: 10.25553131 s
+1.44e-01 5.47e-02 -1.74e-01
+**********200000 nbodies, 50 timesteps, 10 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 10 groups 
+
+runtime: 13.80454922 s
+1.43e-01 5.42e-02 -1.74e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 10 groups 
+
+runtime: 13.80117607 s
+1.43e-01 5.42e-02 -1.74e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 10 groups 
+
+runtime: 13.74559021 s
+1.43e-01 5.42e-02 -1.74e-01
+**********200000 nbodies, 50 timesteps, 25 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 25 groups 
+
+runtime: 17.63257790 s
+1.42e-01 5.47e-02 -1.74e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 25 groups 
+
+runtime: 17.63222122 s
+1.42e-01 5.47e-02 -1.74e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 50 time steps, 25 groups 
+
+runtime: 17.63345909 s
+1.42e-01 5.47e-02 -1.74e-01
+**********************************
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, device 0
+
+runtime: 23.32701302 s
+-1.98e-01 -6.99e-02 2.32e-01
+**********200000 nbodies, 100 timesteps, 2 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 2 groups 
+
+runtime: 19.03700447 s
+-1.90e-01 -6.62e-02 2.34e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 2 groups 
+
+runtime: 19.08101463 s
+-1.90e-01 -6.62e-02 2.34e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 2 groups 
+
+runtime: 19.09002304 s
+-1.90e-01 -6.62e-02 2.34e-01
+**********200000 nbodies, 100 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 5 groups 
+
+runtime: 20.51697159 s
+-1.96e-01 -6.51e-02 2.36e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 5 groups 
+
+runtime: 20.51664162 s
+-1.96e-01 -6.51e-02 2.36e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 5 groups 
+
+runtime: 20.51471138 s
+-1.96e-01 -6.51e-02 2.36e-01
+**********200000 nbodies, 100 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 10 groups 
+
+runtime: 27.59924126 s
+-1.94e-01 -6.76e-02 2.35e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 10 groups 
+
+runtime: 27.57961273 s
+-1.94e-01 -6.76e-02 2.35e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 10 groups 
+
+runtime: 27.59113503 s
+-1.94e-01 -6.76e-02 2.35e-01
+**********200000 nbodies, 100 timesteps, 5 groups**********
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 25 groups 
+
+runtime: 35.22776794 s
+-1.94e-01 -6.64e-02 2.37e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 25 groups 
+
+runtime: 35.22356796 s
+-1.94e-01 -6.64e-02 2.37e-01
+Running on GeForce GTX 1070
+configuration: 200000 bodies, 100 time steps, 25 groups 
+
+runtime: 35.22730637 s
+-1.94e-01 -6.64e-02 2.37e-01
+**********************************
