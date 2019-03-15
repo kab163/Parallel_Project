@@ -77,18 +77,19 @@ int main(int argc, char* argv[])
   for(int i = 0; i < factor; i++) {
     //send part data to GPU for MM
     cudaMemcpyAsync(d_A, &arrayA[(i * part) * N], part * N * sizeof(float), cudaMemcpyHostToDevice, streams[i]); 
-                                                                  //CudaTest("failed to send data to GPU");
+                                                                  CudaTest("failed to send data to GPU");
  
     //run first kernel
     gettimeofday(&start, NULL);   
     matrixMult<<<((part * N + THREADS -1)/THREADS), THREADS, 0, streams[i]>>> (N, part, d_A, d_B, d_C); //CudaTest("failed kernel"); 
+    cudaDeviceSynchronize();
     gettimeofday(&end, NULL);
     runtime = end.tv_sec + (end.tv_usec / 1000000.0) - start.tv_sec - (start.tv_usec / 1000000.0);
     total += runtime;
    
     //send part data back to CPU for MM
     cudaMemcpyAsync(&arrayC[(i * part) * N], d_C, part * N * sizeof(float), cudaMemcpyDeviceToHost, streams[i]); 
-                                                                   //      CudaTest("failed to send data back");
+                                                                         CudaTest("failed to send data back");
   }
   printf("\nCompute time for Matrix Multiply: %.8f s\n", total);
 

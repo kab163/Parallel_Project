@@ -5,7 +5,7 @@
 #include <cuda.h>
 
 
-#define THREADS 128
+#define THREADS 512
 
 __constant__ int nbodiesd;
 __constant__ float dthfd, epssqd;
@@ -250,16 +250,7 @@ int main(int argc, char *argv[])
   cudaHostAlloc((void**) &velx, (sizeof(float) * nbodies), cudaHostAllocDefault);  if (velx == NULL) {fprintf(stderr, "cannot allocate velx\n");  exit(-1);}
   cudaHostAlloc((void**) &vely, (sizeof(float) * nbodies), cudaHostAllocDefault);  if (vely == NULL) {fprintf(stderr, "cannot allocate vely\n");  exit(-1);}
   cudaHostAlloc((void**) &velz, (sizeof(float) * nbodies), cudaHostAllocDefault);  if (velz == NULL) {fprintf(stderr, "cannot allocate velz\n");  exit(-1);}
-  
-/*
-  mass = (float *)malloc(sizeof(float) * nbodies);  if (mass == NULL) {fprintf(stderr, "cannot allocate mass\n");  exit(-1);}
-  posx = (float *)malloc(sizeof(float) * nbodies);  if (posx == NULL) {fprintf(stderr, "cannot allocate posx\n");  exit(-1);}
-  posy = (float *)malloc(sizeof(float) * nbodies);  if (posy == NULL) {fprintf(stderr, "cannot allocate posy\n");  exit(-1);}
-  posz = (float *)malloc(sizeof(float) * nbodies);  if (posz == NULL) {fprintf(stderr, "cannot allocate posz\n");  exit(-1);}
-  velx = (float *)malloc(sizeof(float) * nbodies);  if (velx == NULL) {fprintf(stderr, "cannot allocate velx\n");  exit(-1);}
-  vely = (float *)malloc(sizeof(float) * nbodies);  if (vely == NULL) {fprintf(stderr, "cannot allocate vely\n");  exit(-1);}
-  velz = (float *)malloc(sizeof(float) * nbodies);  if (velz == NULL) {fprintf(stderr, "cannot allocate velz\n");  exit(-1);}
-*/
+
   if (cudaSuccess != cudaMalloc((void **)&massl, sizeof(float) * nbodies)) fprintf(stderr, "could not allocate massd\n");  CudaTest("couldn't allocate massd");
   if (cudaSuccess != cudaMalloc((void **)&posxl, sizeof(float) * nbodies)) fprintf(stderr, "could not allocate posxd\n");  CudaTest("couldn't allocate posxd");
   if (cudaSuccess != cudaMalloc((void **)&posyl, sizeof(float) * nbodies)) fprintf(stderr, "could not allocate posyd\n");  CudaTest("couldn't allocate posyd");
@@ -345,24 +336,8 @@ int main(int argc, char *argv[])
     }
   }
     
-    gettimeofday(&endtime, NULL);
-    runtime = endtime.tv_sec + (endtime.tv_usec / 1000000.0) - starttime.tv_sec - (starttime.tv_usec / 1000000.0);
-    //total += runtime;
-  //}
-/*
-  if (cudaSuccess != cudaMemcpy(posx, posxl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
-	  fprintf(stderr, "copying of posx from device failed\n"); // CudaTest("posx copy from device failed");
-  if (cudaSuccess != cudaMemcpy(posy, posyl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
-	  fprintf(stderr, "copying of posy from device failed\n"); // CudaTest("posy copy from device failed");
-  if (cudaSuccess != cudaMemcpy(posz, poszl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
-	  fprintf(stderr, "copying of posz from device failed\n"); // CudaTest("posz copy from device failed");
-  if (cudaSuccess != cudaMemcpy(velx, velxl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
-	  fprintf(stderr, "copying of velx from device failed\n"); // CudaTest("velx copy from device failed");
-  if (cudaSuccess != cudaMemcpy(vely, velyl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
-	  fprintf(stderr, "copying of vely from device failed\n"); // CudaTest("vely copy from device failed");
-  if (cudaSuccess != cudaMemcpy(velz, velzl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
-	  fprintf(stderr, "copying of velz from device failed\n"); // CudaTest("velz copy from device failed");
-*/
+  gettimeofday(&endtime, NULL);
+  runtime = endtime.tv_sec + (endtime.tv_usec / 1000000.0) - starttime.tv_sec - (starttime.tv_usec / 1000000.0);
  
   printf("\nruntime: %.8f s\n", runtime); 
 

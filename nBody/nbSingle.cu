@@ -302,7 +302,7 @@ int main(int argc, char *argv[])
     ForceCalculationKernel<<<blocks, THREADS>>>(step);
     IntegrationKernel<<<blocks, THREADS>>>();
   }
-    
+  cudaDeviceSynchronize(); 
   gettimeofday(&endtime, NULL);
 
   if (cudaSuccess != cudaMemcpy(posx, posxl, sizeof(float) * nbodies, cudaMemcpyDeviceToHost)) 
