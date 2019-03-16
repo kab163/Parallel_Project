@@ -1,0 +1,43 @@
+*********bombus************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00013706 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00014294 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00013794 s
+*********bird************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00006303 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00007008 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00006307 s
+*********weave************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00012711 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00013007 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00012795 s
+*********rose************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00278805 s
+*********parrot************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00516105 s
+*********flower************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00304108 s
+*********end************
