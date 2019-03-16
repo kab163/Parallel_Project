@@ -106,6 +106,7 @@ int main(int argc, char *argv[]) {
   //launch kernel
   gettimeofday(&start, NULL);
   blur<<<(Hout * Wout + THREADS - 1) / THREADS, THREADS>>>(d_rout, d_gout, d_bout, d_rO, d_gO, d_bO, Hout, Wout);  
+  cudaDeviceSynchronize();
   gettimeofday(&end, NULL);
 
   double runtime = end.tv_sec + (end.tv_usec / 1000000.0) - start.tv_sec - (start.tv_usec / 1000000.0);
