@@ -1,7 +1,7 @@
 SRC=gpublur.cu
 CIMG_I=-I/opt/X11/include
 CIMG_L=-L/opt/X11/lib
-SRC2=PartGPUBlur.cu
+SRC2=backupBlur.cu
 #SRC3=optGPUtest.cu
 
 default: single fast

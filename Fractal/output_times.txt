@@ -1,0 +1,259 @@
+*********single************
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01436910 s
+********1000, 2 groups**************
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01429500 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01435611 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01425401 s
+********1000, 5 groups**************
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01544094 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01507696 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01475505 s
+********1000, 10 groups**************
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01549903 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01533689 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01546401 s
+********1000, 25 groups**************
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01983006 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.02014689 s
+Running on GeForce GTX 1070
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.01943298 s
+*********single************
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.05156098 s
+********2000, 2 groups**************
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04935792 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04532301 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04241793 s
+********2000, 5 groups**************
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04224403 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04221190 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04228390 s
+********2000, 10 groups**************
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04281296 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04296602 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04274790 s
+********2000, 25 groups**************
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04527203 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04508207 s
+Running on GeForce GTX 1070
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.04481106 s
+*********single************
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.23936197 s
+********5000, 2 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24091503 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24027800 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24076899 s
+********5000, 5 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24060493 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24315494 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24059501 s
+********5000, 10 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24198601 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24138605 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24166591 s
+********5000, 25 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24427007 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24398195 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.24448604 s
+*********single************
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.90767705 s
+********10000, 2 groups**************
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91551103 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91623290 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91560503 s
+********10000, 5 groups**************
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91522692 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91617604 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91707700 s
+********10000, 10 groups**************
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.92203202 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.91784508 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.92299009 s
+********10000, 25 groups**************
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.92586590 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.92504495 s
+Running on GeForce GTX 1070
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.92490105 s
+********timesteps************
+*********single************
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14610389 s
+********5000, 2 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14829602 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14813104 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14889106 s
+********5000, 5 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14841897 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14840605 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14844394 s
+********5000, 10 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14877706 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14950605 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14883098 s
+********5000, 25 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.15022697 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.14996606 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.15020706 s
+*********single************
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39310494 s
+********5000, 2 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39502103 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39554697 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39442091 s
+********5000, 5 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39520402 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39495599 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39554401 s
+********5000, 10 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39651089 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39618701 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.39655790 s
+********5000, 25 groups**************
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.40040696 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.40052403 s
+Running on GeForce GTX 1070
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.40044091 s
