@@ -1,0 +1,287 @@
+**********size 100, 2 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00010100 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00005584 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00005608 s
+**********size 100, 5 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00012902 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00012597 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00012501 s
+**********size 100, 10 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00023903 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00023704 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00023690 s
+**********size 100, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00052799 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00052887 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00060674 s
+*************************************
+**********size 500, 2 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00285810 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00277802 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00277102 s
+**********size 500, 5 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00289417 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00289307 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00294798 s
+**********size 500, 10 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00334206 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00333999 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00334320 s
+**********size 500, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00424701 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00428354 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.00424721 s
+**********************************
+**********size 1000, 2 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02230784 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02130798 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02135499 s
+**********size 1000, 5 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02172601 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02159302 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02164583 s
+**********size 1000, 10 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02259503 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02269219 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02249219 s
+**********size 1000, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02611334 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02587423 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 0.02639963 s
+**********************************
+**********size 5000, 2 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.55174297 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.54030795 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.54039091 s
+**********size 5000, 5 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.53729476 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.53544096 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.53340596 s
+**********size 5000, 10 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.52931713 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.53008808 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.53014085 s
+**********size 5000, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.51839579 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.51884501 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 2.51861104 s
+**********************************
+**********size 10000, 2 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.19166915 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.19109792 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.19003693 s
+**********size 10000, 5 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.18764683 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.18859703 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.20360115 s
+**********size 10000, 10 groups********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.25806087 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.24165306 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.20203791 s
+**********size 10000, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.23851090 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.25107878 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 20.22405187 s
+*************************************
+**********size 20000, 2 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.94279092 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.38337897 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.33268501 s
+**********size 20000, 5 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.38065701 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.37913399 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.40788593 s
+**********size 20000, 10 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.38187088 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.38387710 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.37947252 s
+**********size 20000, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.33783815 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.33863307 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 154.34314933 s
+*************************************
+**********size 30000, 2 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.69092080 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.69664711 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.99149807 s
+**********size 30000, 5 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 564.25338905 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.82060392 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.62273009 s
+**********size 30000, 10 groups**********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.61340897 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.62863888 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 564.27381813 s
+**********size 30000, 25 groups*********
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.55221427 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 563.59590020 s
+Running on GeForce GTX 1070
+
+Compute time for Matrix Multiply: 564.18242469 s
+*************************************

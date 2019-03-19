@@ -25,6 +25,7 @@ __global__ void matrixMult(const int N, int part, float *d_A, float *d_B, float 
     int r = index / N;
     int c = index % N;
 
+#pragma loop unroll
     for (int i = 0; i < N; i++) {
       pSum += d_A[r * N + i] * d_B[i * N + c];
     }
