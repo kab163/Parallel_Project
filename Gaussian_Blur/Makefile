@@ -1,19 +1,16 @@
 SRC=gpublur.cu
 CIMG_I=-I/opt/X11/include
 CIMG_L=-L/opt/X11/lib
-#SRC2=partGPUtest.cu
+SRC2=backupBlur.cu
 #SRC3=optGPUtest.cu
 
-default: single
+default: single fast
 
 single: $(SRC)
 	nvcc $(CIMG_I) -w -o single $(SRC) $(CIMG_L) -lm -lpthread -lX11 -ljpeg
 
-#multi: $(SRC2)
-#	nvcc -O3 -arch=sm_35 $(SRC2) -o multi
-
-#fast: $(SRC3)
-#	nvcc -O3 -arch=sm_35 $(SRC3) -o fast
+fast: $(SRC2)
+	nvcc $(CIMG_I) -w -o fast $(SRC2) $(CIMG_L) -lm -lpthread -lX11 -ljpeg
 
 clean:
-	rm single
+	rm single fast

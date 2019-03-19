@@ -1,0 +1,159 @@
+*********bombus************
+********2 groups**************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000510 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000503 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000509 s
+********5 groups**************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000403 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000989 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000406 s
+********10 groups**************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000306 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000300 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000410 s
+********25 groups**************
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000309 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000412 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000299 s
+*********bird************
+************2 groups********
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000402 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000412 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000400 s
+************5 groups********
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000295 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000306 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000308 s
+************10 groups********
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000308 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000404 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000295 s
+************25 groups********
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000203 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000296 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000301 s
+*********weave************
+**********2 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000498 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000495 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000409 s
+**********5 groups*******
+**********10 groups*******
+**********25 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000304 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000299 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000293 s
+*********rose************
+**********2 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000706 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000903 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000788 s
+**********5 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000405 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000497 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000403 s
+**********10 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000404 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000394 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000408 s
+**********25 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000291 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000397 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000392 s
+*********parrot************
+**********2 groups*******
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000195 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000203 s
+Running on GeForce GTX 1070
+
+Compute time for Blur: 0.00000204 s
+**********5 groups*******
+**********10 groups*******
