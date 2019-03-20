@@ -1,0 +1,259 @@
+*********single************
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00244189 s
+********1000, 2 groups**************
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00255611 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00254793 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00255309 s
+********1000, 5 groups**************
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00269502 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00272804 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00276888 s
+********1000, 10 groups**************
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00293104 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00296904 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00293092 s
+********1000, 25 groups**************
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00377393 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00375010 s
+Running on Tesla K40c
+computing 1000 by 1000 fractal with a maximum depth of 256
+compute time: 0.00376203 s
+*********single************
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00879189 s
+********2000, 2 groups**************
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00915612 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00913195 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00915900 s
+********2000, 5 groups**************
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00929597 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00930104 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00933205 s
+********2000, 10 groups**************
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00955397 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00960291 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.00953602 s
+********2000, 25 groups**************
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.01035492 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.01038896 s
+Running on Tesla K40c
+computing 2000 by 2000 fractal with a maximum depth of 256
+compute time: 0.01037198 s
+*********single************
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.04968410 s
+********5000, 2 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05216110 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05222706 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05224110 s
+********5000, 5 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05242500 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05238792 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05239688 s
+********5000, 10 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05275802 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05266697 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05272699 s
+********5000, 25 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05339397 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05342110 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 256
+compute time: 0.05344705 s
+*********single************
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.18842411 s
+********10000, 2 groups**************
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19842899 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19847093 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19847492 s
+********10000, 5 groups**************
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19863908 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19867596 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19864304 s
+********10000, 10 groups**************
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19891192 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19899291 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19885089 s
+********10000, 25 groups**************
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19979689 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19983899 s
+Running on Tesla K40c
+computing 10000 by 10000 fractal with a maximum depth of 256
+compute time: 0.19972306 s
+********timesteps************
+*********single************
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03007100 s
+********5000, 2 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03257705 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03258288 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03258507 s
+********5000, 5 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03269804 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03274103 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03272096 s
+********5000, 10 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03294189 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03294411 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03293097 s
+********5000, 25 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03343609 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03341707 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 128
+compute time: 0.03338911 s
+*********single************
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08188504 s
+********5000, 2 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08453308 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08448711 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08447803 s
+********5000, 5 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08474688 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08472201 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08484107 s
+********5000, 10 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08531806 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08527704 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08518493 s
+********5000, 25 groups**************
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08643897 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08639798 s
+Running on Tesla K40c
+computing 5000 by 5000 fractal with a maximum depth of 512
+compute time: 0.08644805 s

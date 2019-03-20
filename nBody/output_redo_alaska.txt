@@ -1,0 +1,490 @@
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, device 0
+
+runtime: 1.12122202 s
+9.02e-02 3.40e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 2 groups 
+
+runtime: 1.23834193 s
+9.04e-02 3.39e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 2 groups 
+
+runtime: 1.23575103 s
+9.04e-02 3.39e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 2 groups 
+
+runtime: 1.23955691 s
+9.04e-02 3.39e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 5 groups 
+
+runtime: 1.56257284 s
+9.06e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 5 groups 
+
+runtime: 1.56125200 s
+9.06e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 5 groups 
+
+runtime: 1.55391812 s
+9.06e-02 3.38e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 10 groups**********
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 10 groups 
+
+runtime: 1.59779692 s
+9.06e-02 3.40e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 10 groups 
+
+runtime: 1.59743011 s
+9.06e-02 3.40e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 10 groups 
+
+runtime: 1.59433711 s
+9.06e-02 3.40e-02 -1.11e-01
+**********100000 nbodies, 10 timesteps, 25 groups**********
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 25 groups 
+
+runtime: 3.93523121 s
+9.08e-02 3.39e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 25 groups 
+
+runtime: 3.93306518 s
+9.08e-02 3.39e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 100000 bodies, 10 time steps, 25 groups 
+
+runtime: 3.92121601 s
+9.08e-02 3.39e-02 -1.11e-01
+**********************************
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, device 0
+
+runtime: 3.94560814 s
+9.02e-02 3.41e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 2 groups 
+
+runtime: 4.31008816 s
+9.00e-02 3.41e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 2 groups 
+
+runtime: 4.31305599 s
+9.00e-02 3.41e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 2 groups 
+
+runtime: 4.31169987 s
+9.00e-02 3.41e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 5 groups 
+
+runtime: 4.77843475 s
+9.01e-02 3.40e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 5 groups 
+
+runtime: 4.75849581 s
+9.01e-02 3.40e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 5 groups 
+
+runtime: 4.77567816 s
+9.01e-02 3.40e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 10 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 10 groups 
+
+runtime: 6.22613907 s
+9.02e-02 3.40e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 10 groups 
+
+runtime: 6.21914291 s
+9.02e-02 3.40e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 10 groups 
+
+runtime: 6.21624613 s
+9.02e-02 3.40e-02 -1.11e-01
+**********200000 nbodies, 10 timesteps, 25 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 25 groups 
+
+runtime: 7.93278599 s
+9.02e-02 3.41e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 25 groups 
+
+runtime: 7.93296814 s
+9.02e-02 3.41e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 10 time steps, 25 groups 
+
+runtime: 7.93693399 s
+9.02e-02 3.41e-02 -1.11e-01
+*************************************
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, device 0
+
+runtime: 23.89279556 s
+9.04e-02 3.36e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 2 groups 
+
+runtime: 26.05670929 s
+9.05e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 2 groups 
+
+runtime: 26.06558037 s
+9.05e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 2 groups 
+
+runtime: 26.11174774 s
+9.05e-02 3.37e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 5 groups 
+
+runtime: 26.96200752 s
+9.03e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 5 groups 
+
+runtime: 26.89914322 s
+9.03e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 5 groups 
+
+runtime: 26.95498085 s
+9.03e-02 3.37e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 10 groups**********
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 10 groups 
+
+runtime: 30.85867691 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 10 groups 
+
+runtime: 30.80473137 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 10 groups 
+
+runtime: 30.85263824 s
+9.04e-02 3.37e-02 -1.11e-01
+**********500000 nbodies, 10 timesteps, 25 groups**********
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 25 groups 
+
+runtime: 38.86690521 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 25 groups 
+
+runtime: 38.78016281 s
+9.04e-02 3.37e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 500000 bodies, 10 time steps, 25 groups 
+
+runtime: 38.76675034 s
+9.04e-02 3.37e-02 -1.11e-01
+***********************************************
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, device 0
+
+runtime: 93.12586212 s
+9.05e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 2 groups 
+
+runtime: 101.32460022 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 2 groups 
+
+runtime: 101.36219025 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 2 groups 
+
+runtime: 101.51036835 s
+9.05e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 5 groups 
+
+runtime: 107.84383392 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 5 groups 
+
+runtime: 107.83892059 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 5 groups 
+
+runtime: 107.74201202 s
+9.05e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 10 groups**********
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 10 groups 
+
+runtime: 107.64412689 s
+9.04e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 10 groups 
+
+runtime: 107.69540405 s
+9.04e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 10 groups 
+
+runtime: 107.67224884 s
+9.04e-02 3.38e-02 -1.11e-01
+**********1000000 nbodies, 10 timesteps, 25 groups**********
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 25 groups 
+
+runtime: 119.00203705 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 25 groups 
+
+runtime: 118.88692474 s
+9.05e-02 3.38e-02 -1.11e-01
+Running on Tesla K40c
+configuration: 1000000 bodies, 10 time steps, 25 groups 
+
+runtime: 118.89589691 s
+9.05e-02 3.38e-02 -1.11e-01
+***********************************************
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, device 0
+
+runtime: 7.88944912 s
+1.58e-01 6.04e-02 -1.94e-01
+**********200000 nbodies, 20 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 2 groups 
+
+runtime: 8.60961819 s
+1.57e-01 6.08e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 2 groups 
+
+runtime: 8.61125565 s
+1.57e-01 6.08e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 2 groups 
+
+runtime: 8.62554359 s
+1.57e-01 6.08e-02 -1.93e-01
+**********200000 nbodies, 20 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 5 groups 
+
+runtime: 9.54926109 s
+1.57e-01 6.04e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 5 groups 
+
+runtime: 9.52661800 s
+1.57e-01 6.04e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 5 groups 
+
+runtime: 9.53647614 s
+1.57e-01 6.04e-02 -1.93e-01
+**********200000 nbodies, 20 timesteps, 10 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 10 groups 
+
+runtime: 12.43303013 s
+1.57e-01 6.05e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 10 groups 
+
+runtime: 12.39369774 s
+1.57e-01 6.05e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 10 groups 
+
+runtime: 12.42673206 s
+1.57e-01 6.05e-02 -1.93e-01
+**********200000 nbodies, 20 timesteps, 25 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 25 groups 
+
+runtime: 15.86901283 s
+1.57e-01 6.07e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 25 groups 
+
+runtime: 15.87186337 s
+1.57e-01 6.07e-02 -1.93e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 20 time steps, 25 groups 
+
+runtime: 15.85053444 s
+1.57e-01 6.07e-02 -1.93e-01
+**********************************
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, device 0
+
+runtime: 19.73745537 s
+1.56e-01 6.44e-02 -1.96e-01
+**********200000 nbodies, 50 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 2 groups 
+
+runtime: 21.55153084 s
+1.46e-01 5.74e-02 -1.77e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 2 groups 
+
+runtime: 21.59531784 s
+1.46e-01 5.74e-02 -1.77e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 2 groups 
+
+runtime: 21.60343933 s
+1.46e-01 5.74e-02 -1.77e-01
+**********200000 nbodies, 50 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 5 groups 
+
+runtime: 23.86830521 s
+1.44e-01 5.47e-02 -1.74e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 5 groups 
+
+runtime: 23.79438782 s
+1.44e-01 5.47e-02 -1.74e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 5 groups 
+
+runtime: 23.78836060 s
+1.44e-01 5.47e-02 -1.74e-01
+**********200000 nbodies, 50 timesteps, 10 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 10 groups 
+
+runtime: 31.02556229 s
+1.43e-01 5.42e-02 -1.74e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 10 groups 
+
+runtime: 31.05975533 s
+1.43e-01 5.42e-02 -1.74e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 10 groups 
+
+runtime: 31.03160667 s
+1.43e-01 5.42e-02 -1.74e-01
+**********200000 nbodies, 50 timesteps, 25 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 25 groups 
+
+runtime: 39.71963882 s
+1.42e-01 5.47e-02 -1.74e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 25 groups 
+
+runtime: 39.64694977 s
+1.42e-01 5.47e-02 -1.74e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 50 time steps, 25 groups 
+
+runtime: 39.69495773 s
+1.42e-01 5.47e-02 -1.74e-01
+**********************************
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, device 0
+
+runtime: 39.46719360 s
+-1.98e-01 -6.99e-02 2.32e-01
+**********200000 nbodies, 100 timesteps, 2 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 2 groups 
+
+runtime: 43.02001953 s
+-1.90e-01 -6.62e-02 2.34e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 2 groups 
+
+runtime: 43.08507919 s
+-1.90e-01 -6.62e-02 2.34e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 2 groups 
+
+runtime: 43.15994263 s
+-1.90e-01 -6.62e-02 2.34e-01
+**********200000 nbodies, 100 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 5 groups 
+
+runtime: 47.72714615 s
+-1.96e-01 -6.51e-02 2.36e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 5 groups 
+
+runtime: 47.59528732 s
+-1.96e-01 -6.50e-02 2.36e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 5 groups 
+
+runtime: 47.60845184 s
+-1.96e-01 -6.51e-02 2.36e-01
+**********200000 nbodies, 100 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 10 groups 
+
+runtime: 62.25856018 s
+-1.94e-01 -6.76e-02 2.35e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 10 groups 
+
+runtime: 62.12963867 s
+-1.94e-01 -6.76e-02 2.35e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 10 groups 
+
+runtime: 62.14745712 s
+-1.94e-01 -6.76e-02 2.35e-01
+**********200000 nbodies, 100 timesteps, 5 groups**********
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 25 groups 
+
+runtime: 79.34616852 s
+-1.94e-01 -6.64e-02 2.37e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 25 groups 
+
+runtime: 79.26960754 s
+-1.94e-01 -6.64e-02 2.37e-01
+Running on Tesla K40c
+configuration: 200000 bodies, 100 time steps, 25 groups 
+
+runtime: 79.34892273 s
+-1.94e-01 -6.64e-02 2.37e-01
+**********************************
